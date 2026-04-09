@@ -81,20 +81,40 @@ class queue{
 			}
 		
 		}
-	};
+		
+		
+int deque{
+	int temp;
+	if(!isEmpty()){
+		temp=queue[front];
+		if(front ==rear){
+			front =rear=-1;
+		}else{
+			shift_left(front,rear);
+		}
+		rear--;
+	}
+	else{
+		cout<<"sorry";
+		temp=-1;
+	}
+	return temp;
+	
+	void shift_left(int front,int rear){
+		int x=front;
+		while(x+1!=rear){
+			que[x]=que[x+1];
+		}
+	}
+};
 		
 		int main(){
-			queue q1;
 			queue q2(2);
-			queue q3(2);
 			q2.enqueue(4);
 			q2.enqueue(2);
 			q2.enqueue(7);
 			q2.display();
-			q3.enqueue(8);
-			q3.enqueue(6);
-			q3.enqueue(2);
-			q3.display();
+		
 			int x=q2.dequeue();
 			cout<<"dequeue element from q3 is "<<x<<endl;
 			q2.display();
@@ -103,4 +123,5 @@ class queue{
 			
 		}		
 		
+
 
