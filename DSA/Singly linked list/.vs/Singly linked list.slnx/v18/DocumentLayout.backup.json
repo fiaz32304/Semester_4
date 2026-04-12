@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\Semester_4\\DSA\\Singly linked list\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63301E26-EB77-433D-A7C2-071F1D6CADCC}|Singly linked list.csproj|d:\\github\\semester_4\\dsa\\singly linked list\\linked_list.cpp||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{63301E26-EB77-433D-A7C2-071F1D6CADCC}|Singly linked list.csproj|solutionrelative:linked_list.cpp||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "linked_list.cpp",
+              "DocumentMoniker": "D:\\Github\\Semester_4\\DSA\\Singly linked list\\linked_list.cpp",
+              "RelativeDocumentMoniker": "linked_list.cpp",
+              "ToolTip": "D:\\Github\\Semester_4\\DSA\\Singly linked list\\linked_list.cpp",
+              "RelativeToolTip": "linked_list.cpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-09T15:55:14.298Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

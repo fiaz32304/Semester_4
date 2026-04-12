@@ -1,0 +1,17 @@
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\Singly_linked_list.Form1.resources
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\Singly_linked_list.Properties.Resources.resources
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\Singly linked list.csproj.GenerateResource.cache
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\Singly linked list.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\Singly linked list.csproj.CoreCompileInputs.cache
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\Singly linked list.sourcelink.json
+D:\Github\Semester_4\DSA\Singly linked list\bin\Debug\net10.0-windows\Singly linked list.exe
+D:\Github\Semester_4\DSA\Singly linked list\bin\Debug\net10.0-windows\Singly linked list.dll.config
+D:\Github\Semester_4\DSA\Singly linked list\bin\Debug\net10.0-windows\Singly linked list.deps.json
+D:\Github\Semester_4\DSA\Singly linked list\bin\Debug\net10.0-windows\Singly linked list.runtimeconfig.json
+D:\Github\Semester_4\DSA\Singly linked list\bin\Debug\net10.0-windows\Singly linked list.dll
+D:\Github\Semester_4\DSA\Singly linked list\bin\Debug\net10.0-windows\Singly linked list.pdb
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\Singly linked list.dll
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\refint\Singly linked list.dll
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\Singly linked list.pdb
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\Singly linked list.genruntimeconfig.cache
+D:\Github\Semester_4\DSA\Singly linked list\obj\Debug\net10.0-windows\ref\Singly linked list.dll
