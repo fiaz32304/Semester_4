@@ -1,63 +1,87 @@
 #include <iostream>
 using namespace std;
 
-class StackArray {
+class Stack {
+private:
+    int arr[5];   // fixed size array
+    int top;      // top variable
+
 public:
-    int arr[10];
-    int top;
-
-    StackArray() {
-        top = -1;
+    // Constructor
+    Stack() {
+        top = -1;   // stack empty
     }
 
-    void push(int x) {
-        if (top == 9) {
+    // Push (Insert)
+    void push(int value) {
+        if (top == 4) {
             cout << "Stack Overflow\n";
-            return;
+        } else {
+            top++;
+            arr[top] = value;
+            cout << value << " inserted\n";
         }
-        arr[++top] = x;
     }
 
+    // Pop (Delete)
     void pop() {
         if (top == -1) {
             cout << "Stack Underflow\n";
-            return;
+        } else {
+            cout << arr[top] << " deleted\n";
+            top--;
         }
-        cout << "Popped: " << arr[top--] << endl;
     }
 
-    void update(int pos, int val) {
-        if (pos < 0 || pos > top) {
-            cout << "Invalid Position\n";
-            return;
-        }
-        arr[pos] = val;
-    }
-
-    void find(int val) {
-        for (int i = 0; i <= top; i++) {
-            if (arr[i] == val) {
-                cout << "Found at index: " << i << endl;
-                return;
-            }
-        }
-        cout << "Not Found\n";
-    }
-
-    void display() {
+    // Top (Peek)
+    void peek() {
         if (top == -1) {
             cout << "Stack is empty\n";
-            return;
+        } else {
+            cout << "Top element: " << arr[top] << endl;
         }
-        for (int i = top; i >= 0; i--) {
-            cout << arr[i] << " ";
+    }
+
+    // Find
+    void find(int value) {
+        bool found = false;
+        for (int i = 0; i <= top; i++) {
+            if (arr[i] == value) {
+                cout << "Found at index: " << i << endl;
+                found = true;
+                break;
+            }
         }
-        cout << endl;
+        if (!found) {
+            cout << "Not found\n";
+        }
+    }
+
+    // Update
+    void update(int index, int value) {
+        if (index < 0 || index > top) {
+            cout << "Invalid index\n";
+        } else {
+            arr[index] = value;
+            cout << "Updated\n";
+        }
+    }
+
+    // Display
+    void display() {
+        if (top == -1) {
+            cout << "Stack empty\n";
+        } else {
+            for (int i = top; i >= 0; i--) {
+                cout << arr[i] << " ";
+            }
+            cout << endl;
+        }
     }
 };
 
 int main() {
-    StackArray s;
+    Stack s;
 
     s.push(10);
     s.push(20);
@@ -65,10 +89,12 @@ int main() {
 
     s.display();
 
+    s.peek();
+
+    s.find(20);
+
     s.update(1, 50);
     s.display();
-
-    s.find(50);
 
     s.pop();
     s.display();
